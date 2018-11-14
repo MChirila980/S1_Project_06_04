@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Melinda Chirila
+   Date: 11/13/2018
+	
+   Filename: br_styles.css
+
+*/
+/* nav bar styles */
+
+nav.straight li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    float: left;
+}
+
+nav.straight li {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(71, 71, 71);
+    margin: 5px;
+}
+
+
